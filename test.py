@@ -21,6 +21,8 @@ print("Hello, World!")
 
 # pip freeze > requirements.txt
 
+# py -m pip freeze > requirements.txt
+
 import os
 import sys
 print(os.path.dirname(sys.executable))
