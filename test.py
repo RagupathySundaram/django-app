@@ -1,6 +1,8 @@
 print("Fdfdfdfd")
 print("Hello, World!")
 
+# REF => https://djangoforbeginners.com/
+
 # def make_my_website:
 #  ...
 # print("All Done!00")
@@ -22,6 +24,8 @@ print("Hello, World!")
 # pip freeze > requirements.txt
 
 # py -m pip freeze > requirements.txt
+
+# python manage.py test
 
 import os
 import sys
