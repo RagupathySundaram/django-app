@@ -1,8 +1,8 @@
-# django_project/urls.py
-from django.contrib import admin
-from django.urls import path, include  # new
+# pages/urls.py
+from django.urls import path
+
+from .views import home_page_view
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", include("pages.urls")),  # new
+    path("", home_page_view),
 ]
